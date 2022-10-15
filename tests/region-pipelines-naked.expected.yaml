@@ -42,7 +42,7 @@ spec:
   resources:
     requests:
       storage: 5Gi
-  storageClassName: gp2
+  storageClassName: thin-csi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
@@ -59,7 +59,7 @@ spec:
   resources:
     requests:
       storage: 5Gi
-  storageClassName: gp2
+  storageClassName: thin-csi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
