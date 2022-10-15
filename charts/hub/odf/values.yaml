@@ -25,7 +25,7 @@ ocs:
       cpu: 2
       memory: 5Gi
     pvc:
-      storage: 2Ti
+      storage: 512Gi
       storageClassName: thin-csi
   storageClass:
     name: ocs-storagecluster-ceph-rgw
