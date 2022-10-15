@@ -26,7 +26,7 @@ ocs:
       memory: 5Gi
     pvc:
       storage: 2Ti
-      storageClassName: gp2
+      storageClassName: thin-csi
   storageClass:
     name: ocs-storagecluster-ceph-rgw
     region: us-west-1  #overwritten
