@@ -6,6 +6,6 @@ metadata:
 parameters:
   encrypted: "true"
   type: gp2
-provisioner: kubernetes.io/aws-ebs
+provisioner: csi.vsphere.vmware.com
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
