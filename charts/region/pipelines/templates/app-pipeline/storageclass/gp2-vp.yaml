@@ -5,7 +5,5 @@ metadata:
   name: gp2-vp
 parameters:
   encrypted: "true"
-  type: gp2
 provisioner: csi.vsphere.vmware.com
 reclaimPolicy: Delete
-volumeBindingMode: Immediate
